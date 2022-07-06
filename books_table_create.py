@@ -2,8 +2,10 @@
 
 import boto3
 
+#Get the service resource.                        #Set appropriate region
 dynamodb = boto3.resource('dynamodb', region_name='us-east-1')
 
+#Create the DynamoDB table.
 table = dynamodb.create_table(
     TableName='some_favourite_books',
     KeySchema=[
@@ -18,12 +20,12 @@ table = dynamodb.create_table(
     ],
     AttributeDefinitions=[
         {
-            'AttributeName': 'Year',
-            'AttributeType': 'N'
+            'AttributeName': 'Title',
+            'AttributeType': 'S'  #S is for string attribute
         },
         {
-            'AttributeName': 'Title',
-            'AttributeType': 'S'
+            'AttributeName': 'Year',
+            'AttributeType': 'N'  #N is for number attibute
         },
 
     ],
@@ -32,5 +34,4 @@ table = dynamodb.create_table(
         'WriteCapacityUnits': 10
     }
 )
-
-print("Table status:", table.table_status)
+print("Table status:", table.table_status) #print table status
