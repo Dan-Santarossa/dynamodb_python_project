@@ -1,0 +1,1 @@
+# dynamodb_python_project
