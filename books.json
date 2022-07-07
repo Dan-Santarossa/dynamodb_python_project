@@ -2,41 +2,81 @@
     {
         "Title": "Name Of The Wind",
         "Year": "2007"
+        "info": {
+            "author": ["Patrick Rothfus"],
+            "genre": ["Fantasy"]
+        }
     },
     {
         "Title": "The Lies Of Locke Lamora",
         "Year": "2006"
+        "info": {
+            "author": ["Scott Lynch"],
+            "genre": ["Fantasy"]
+        }
     },
     {
         "Title": "Ender's Game",
         "Year": "1985"
+        "info": {
+            "author": ["Orson Scott Card"],
+            "genre": ["SciFi"]
+        }
     },
     {
         "Title": "Dune",
         "Year": "1965"
+        "info": {
+            "author": ["Frank Herbert"],
+            "genre": ["SciFi"]
+        }
     },
     {
         "Title": "The Forever War",
         "Year": "1974"
+        "info": {
+            "author": ["Joe Haldeman"],
+            "genre": ["SciFI"]
+        }
     },
     {
         "Title": "Neuromancer",
         "Year": "1984"
+        "info": {
+            "author": ["William Gibson"],
+            "genre": ["Cyberpunk"]
+        }
     },
     {
         "Title": "Rendevous With Rama",
         "Year": "1973"
+        "info": {
+            "author": ["Arthur C. Clarke"],
+            "genre": ["SciFi"]
+        }
     },
     {
         "Title": "The Blade Itself",
         "Year": "2006"
+        "info": {
+            "author": ["Joe Abercrombie"],
+            "genre": ["Fantasy"]
+        }
     },
     {
         "Title": "Brain Droppings",
         "Year": "1998"
+        "info": {
+            "author": ["George Carlin"],
+            "genre": ["Comedy"]
+        }
     },
     {
         "Title": "Hyperion",
         "Year": "1989"
+        "info": {
+            "author": ["Dan Simmons"],
+            "genre": ["SciFi"]
+        }
     }
 ]
