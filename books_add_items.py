@@ -9,19 +9,18 @@ with open("books.json") as json_file:
     books = json.load(json_file)
     for book in books:
         Title = book['Title']
-        Year = book['Year']
-        author = book['author']
-        genre = book['genre']
+        Year = int(book['Year'])
+        info = book['info']
 
-        print("Adding books:", Title, Year, author, genre)
+        print("Adding books:", Title, Year, info)
 
         table.put_item(
            Item={
                'Title': Title,
                'Year': Year,
-               'author': author,
-               'genre': genre
+               'info': info
+               
                
             }
         )
-    
+ 
